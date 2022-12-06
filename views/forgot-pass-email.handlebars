@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    button:hover {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0">
+  <table align="center" style="background-color: #f9f9f9; height: 100%; width: 100%; padding: 100px 0">
+    <tr>
+      <td align="center">
+        <div style="background-color: #001e2b; width: 700px; color: white; border-radius: 8px; padding: 20px 32px 40px 32px">
+            <h1 style="color: white">Hi {{email}}</h1>
+            <div style="text-align: left; color: white">
+              <p>You forgot your password?</p>
+            </div>
+            <div>
+              <a href={{url}}>
+                <button style="background-color: #00ed64; border: none; padding: 8px 16px; border-radius: 4px; font-size: 1.2rem; font-weight: 600">
+                  Click here
+                </button>
+              </a>
+            </div>
+            <div style="text-align: left; margin-top: 20px">
+              <div>If button not work copy the direct link here <a style="color: #00ed64; text-decoration: underline; cursor: pointer">{{url}}</a></div>
+            </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
